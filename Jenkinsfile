@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('clone'){
       steps{
-        git branch:'main',url:'';
+        git branch:'main',url:'https://github.com/Soujanya-Ammula/calculator.git';
       }
     }
     stage('compile'){
